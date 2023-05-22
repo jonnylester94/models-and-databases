@@ -1,0 +1,33 @@
+You are now connected to database "topmodelsql" as user "Jonathan".
+DROP TABLE
+CREATE TABLE
+INSERT 0 14
+ model_id |    model_name    | price_per_event | rating |      trait       
+----------+------------------+-----------------+--------+------------------
+        1 | Bartholomew P    |          499.99 |      7 | Pro strutter
+        2 | Notso Neat       |            9.99 |      1 | The dadbod drop
+        3 | Jarred MacKenzie |             170 |      4 | Fire_eating
+        4 | Rathbones Arr    |          263.82 |      5 | Hand modelling
+        5 | Sarah B          |          432.25 |      7 | Influencer
+        6 | Cat Wang         |             600 |      8 | Catwalker
+        7 | Starr Schema     |             250 |      5 | Databases
+        8 | Sam Pagne        |          899.99 |      9 | Old-money
+        9 | Salle De Bain    |             150 |      3 | Architect
+       10 | Slam Dunk        |          801.65 |      9 | High-tops
+       11 | Hannah Bee       |             325 |      6 | Photography
+       12 | Rainsface W      |             120 |      3 | Impromptu crying
+       13 | Raul Pogerson    |              50 |      2 | Messy eating
+       14 | Ray Z            |          470.68 |      7 | Card magic
+(14 rows)
+
+                      Table "public.dim_models"
+     Column      |       Type        | Collation | Nullable | Default 
+-----------------+-------------------+-----------+----------+---------
+ model_id        | integer           |           | not null | 
+ model_name      | character varying |           |          | 
+ price_per_event | double precision  |           |          | 
+ rating          | integer           |           |          | 
+ trait           | character varying |           |          | 
+Indexes:
+    "dim_models_pkey" PRIMARY KEY, btree (model_id)
+

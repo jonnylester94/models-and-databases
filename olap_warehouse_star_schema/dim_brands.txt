@@ -1,0 +1,35 @@
+You are now connected to database "topmodelsql" as user "Jonathan".
+DROP TABLE
+CREATE TABLE
+INSERT 0 27
+ brand_id |       brand       
+----------+-------------------
+       14 | Adidas
+       13 | Aldi
+        8 | Amazon
+       12 | Buff
+        6 | Chanel
+       22 | Charities
+       27 | Dior
+       15 | Ebay
+       10 | H&M
+       26 | Harrods
+       25 | HSBC
+       17 | Ikea
+        3 | Instagram
+        5 | Listo Burritos
+       11 | Louboutin
+        2 | Marks and Spencer
+       23 | Marvel Studios
+       20 | Nike
+       19 | Oricle
+       18 | Patagonia
+       21 | Poundland
+       16 | Reebok
+        4 | Salomon
+       24 | Stella McCartney
+        7 | United Utilities
+        9 | Vinted
+        1 | Wayfair
+(27 rows)
+
